@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "poonphol-intranet-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/poonpholIntranet/PoonpholIntranetWebPart.js",
+          "manifest": "./src/webparts/poonpholIntranet/PoonpholIntranetWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PoonpholIntranetWebPartStrings": "lib/webparts/poonpholIntranet/loc/{locale}.js"
+  }
+}
