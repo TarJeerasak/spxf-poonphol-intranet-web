@@ -1,0 +1,35 @@
+@import "01_main.scss";
+
+
+
+
+// =================================================================================
+.headerRow-107 {
+    display: none !important;
+}
+
+.commandBarWrapper {
+    display: none !important;
+}
+
+.spAppAndPropertyPanelContainer .sp-appBar.spDeThemeAppBar {
+    display: none !important;
+}
+
+form[role="search"],
+input[aria-label="Search box"],
+input[placeholder="Search this site"] {
+  display: none !important;
+}
+
+#sbcId,
+[id*="SearchBoxContainer"],
+[id*="searchBoxInactive"],
+form[role="search"] {
+  display: none !important;
+}
+
+div[class*="headerRow-"],
+div[class*="shyHeader-"] {
+  display: none !important;
+}

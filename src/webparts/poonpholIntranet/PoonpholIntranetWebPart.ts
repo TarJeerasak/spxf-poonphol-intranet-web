@@ -9,8 +9,8 @@ import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import { IReadonlyTheme } from '@microsoft/sp-component-base';
 
 import * as strings from 'PoonpholIntranetWebPartStrings';
-import PoonpholIntranet from './components/PoonpholIntranet';
-import { IPoonpholIntranetProps } from './components/IPoonpholIntranetProps';
+import PoonpholIntranet from './app/PoonpholIntranet';
+import { IPoonpholIntranetProps } from './app/IPoonpholIntranetProps';
 
 export interface IPoonpholIntranetWebPartProps {
   description: string;
